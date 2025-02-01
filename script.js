@@ -1,25 +1,20 @@
-let output = "";
 // Variables
-let name = "Joshua";
+let name = "Joshua Ebod";
 let age = 20;
 let isStudent = true;
-output += `Name: ${name}, Age: ${age}, Student: ${isStudent}\n`;
-
+console.log(`Name: ${name}, Age: ${age}, Student: ${isStudent}`);
 // Loops
 for (let i = 1; i <= 10; i++) {
-    output += i + "\n";
+ console.log(i);
 }
-
 // Functions
 function addNumbers(a, b) {
-    return a + b;
+ return a + b;
 }
-output += addNumbers(5, 10) + "\n";
-
+console.log(addNumbers(5, 10));
 // Conditionals
 if (age >= 18) {
-    output += "Adult\n";
+ console.log("Adult");
 } else {
-    output += "Minor\n";
+ console.log("Minor");
 }
-document.getElementById('console-output').innerText = output;
