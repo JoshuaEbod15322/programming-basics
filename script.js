@@ -1,6 +1,6 @@
 // Variables
-let name = "John";
-let age = 25;
+let name = "Joshua";
+let age = 20;
 let isStudent = true;
 console.log(`Name: ${name}, Age: ${age}, Student: ${isStudent}`);
 // Loops
