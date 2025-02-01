@@ -1,3 +1,4 @@
+let output = "";
 // Variables
 let name = "Joshua";
 let age = 20;
@@ -21,6 +22,4 @@ if (age >= 18) {
 } else {
     output += "Minor\n";
 }
-
-// Display the output in the HTML
 document.getElementById('console-output').innerText = output;
